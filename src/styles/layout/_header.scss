@@ -1,0 +1,172 @@
+.hero-slide{
+    position: relative;
+}
+.flexbox{
+    font-size: 26px;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+.proholic a{
+    display: flex;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    margin-right: 145px;
+    margin-left: 80px;
+}
+.proholic a:link{
+    color: white;
+}
+.proholic a:visited{
+    color: white;
+}
+.proholic-1 a{
+    color: white;
+    border-bottom: 1px solid red;
+    margin-right: 80px;
+}
+.proholic-1 a:link{
+    color: white;
+}
+.proholic-1 a:visited{
+    color: white;
+}
+.proholic-1 a:hover{
+    color: red;
+}
+.proholic-2 a{
+    color: white;
+    margin-right: 80px;
+}
+.proholic-2 a:link{
+    color: white;
+}
+.proholic-2 a:visited{
+    color: white;
+}
+.proholic-2 a:hover{
+    color: red;
+}
+.proholic-3 a{
+    color: white;
+    margin-right: 80px;
+}
+.proholic-3 a:link{
+    color: white;
+}
+.proholic-3 a:visited{
+    color: white;
+}
+.proholic-3 a:hover{
+    color: red;
+}
+.proholic-4 a{
+    color: white;
+    margin-right: 80px;
+}
+.proholic-4 a:link{
+    color: white;
+}
+.proholic-4 a:visited{
+    color: white;
+}
+.proholic-4 a:hover{
+    color: red;
+}
+.proholic-5 a{
+    color: white;
+}
+.proholic-5 a:link{
+    color: white;
+}
+.proholic-5 a:visited{
+    color: white;
+}
+.proholic-5 a:hover{
+    color: red;
+}
+.hh-button{
+    justify-content: center;
+}
+.ss-button{
+    background-color: transparent; 
+    border: none;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.fas.fa-search{
+    color: white;
+}
+.slide-message{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+.slide-message h2{
+    position: absolute;
+    color: #f1a997;
+    top: 80px;
+    left: 50px;
+    font-size: 70px;
+    text-align: left;
+    font-weight: bold;
+}
+.intro{
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+.email{
+    position: absolute;
+    color: white;
+    top: 450px;
+    left: 200px;
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    border-bottom: 1px solid white;
+    margin-left: 30px;
+}
+.email:hover{
+    color: #ec5c5e;
+    border-color: #ec5c5e;
+    transition: 1s;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.modal-content{
+    background-color: #fbfbfb;
+    justify-content: center;
+    padding: 20px;
+}
+.modal-dialog{
+    background-color: #fcfcfc
+}
+.modal-body{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 38px;
+    justify-content: center;
+    position: relative;
+}
+.search{
+    border: none;
+    justify-content: center;
+    margin: auto;
+    padding: none;
+}

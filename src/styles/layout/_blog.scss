@@ -1,0 +1,105 @@
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 214vh;
+    padding: 50px;
+    background-color: white;
+    justify-content: center;
+}
+.b-photography{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.b-photography p{
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+}
+.b-photography p:hover{
+    color: #ec5c5e; 
+    transition: 1s;
+}
+.b-photography h2{
+    font-size: 20px;
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+.b-photography h2:hover{
+    color: #ec5c5e; 
+    transition: 1s;
+}
+.blo-photography{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.blo-photography p{
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+}
+.blo-photography p:hover{
+    color: #ec5c5e; 
+    transition: 1s;
+}
+.blo-photography h2{
+    font-size: 20px;
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+.blo-photography h2:hover{
+    color: #ec5c5e; 
+    transition: 1s;
+}
+.b-photography button{
+    color: white;
+    background-color: #ec5c5e;
+    border: 1px solid #ec5c5e;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 5px;
+    width: 25%;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.b-photography button:hover{
+    background-color: black;
+    border-color: black;
+    transition: 1s;
+}
+.blo-photography button{
+    color: white;
+    background-color: #ec5c5e;
+    border: 1px solid #ec5c5e;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 5px;
+    width: 53%;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.blo-photography button:hover{
+    background-color: black;
+    border-color: black;
+    transition: 1s;
+}

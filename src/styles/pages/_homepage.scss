@@ -1,0 +1,110 @@
+.middle{
+    background-color: white;
+}
+.middle-contents{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.middle-contents h2{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.top-img{
+    height: 1400px;
+}
+.middle-img{
+    position: relative;
+}
+.human-1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.human-2{
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+}
+.human-3{
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+.nature-1{
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    left: 650px;
+    top: 50px;
+}
+.nature-2{
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    left: 980px;
+    top: 50px;
+}
+.nature-3{
+    width: 280px;
+    height: 440px;
+    position: absolute;
+    left: 350px;
+    top: 460px;
+}
+.country-1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 730px;
+}
+.country-2{
+    width: 192px;
+    height: 340px;
+    position: absolute;
+    left: 680px;
+    top: 850px;
+}
+.country-3{
+    height: 234px;
+    width: 200px;
+    position: absolute;
+    left: 380px;
+    top: 950px;
+}
+.video-1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 680px;
+    top: 500px;
+}
+.video-2{
+    width: 160px;
+    height: 240px;
+    position: absolute;
+    left: 930px;
+    top: 460px;
+}
+.video-3{
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    left: 930px;
+    top: 750px;
+}
+.view-button{
+    position: relative;
+    left:600px;
+}

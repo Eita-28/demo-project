@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', {
+    "title": "HTML Boilerplate"
+  })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    <div class="flexbox">
+        <div class="proholic">
+          <h1><a href="" target="_blank">Proholic I.E.</a></h1>
+        </div>
+        <div class="proholic-1">
+          <h1><a href="index.html" style="border-bottom: none">Home</a></h1>
+        </div>
+        <div class="proholic-2">
+          <h1><a href="about.html">About</a></h1>
+        </div>
+        <div class="proholic-3">
+          <h1><a href="gallery.html">Gallery</a></h1>
+        </div>
+        <div class="proholic-4">
+          <h1><a href="blog.html">Blog</a></h1>
+        </div>
+        <div class="proholic-5">
+          <h1><a href="contact.html" style="border-bottom: 1px solid #ec5c5e">Contact</a></h1>
+        </div>
+        <div class="hh-button">
+          <button type="button" data-toggle="modal" data-target="#exampleModal" class="ss-button">
+            <i class="fas fa-search" style="text-align: center;"></i>
+          </button>
+         </div>
+      </div>
+      <div style="background-image: url('../../images/Demo-pro-img2.5.JPG')" class="middle-message">
+        <h1>Contact</h1>
+        <h2><a href="index.html" class="home-hov"><i class="fas fa-home"></i>Home</a> > <span style="color: #ec5c5e">Contact</span></h2>
+      </div>
+
+    <!-- include banner.html -->
+    
+    <div class="contact-page">
+      <div class="contact-invite">
+        <h1>Let's Work<br>Together</h1>
+      </div>
+      <div class="contact-info">
+        <div class="contact-mail">
+          <h2>Email</h2>
+          <p style="padding-left: 10px">eitaro.hosei@fpt</p>
+        </div>
+        <div class="contact-address">
+          <h2>Visit Us</h2>
+          <p style="padding-left: 10px">Los Angeles, CA 90095, USA</p>
+        </div>
+        <div class="contact-number">
+          <h2>Call Us</h2>
+          <p style="padding-left: 10px">+0120.000.000</p>
+        </div>  
+      </div>  
+    </div>  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6610.051332241948!2d-118.44954450543221!3d34.06885630943948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc85f05c0f65%3A0x25a993585c134837!2z44Kr44Oq44OV44Kp44Or44OL44Ki5aSn5a2m44Ot44K144Oz44K844Or44K55qCh!5e0!3m2!1sja!2s!4v1566792126484!5m2!1sja!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="g-map"></iframe>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              <div class="modal-body">
+                <input type="text" class="search" placeholder="Search and hit enter_">
+                <button type="button" class="btn btn-primary">SEARCH</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- include footer.html -->
+    @@include('../layouts/footer.html')
+  </div>
+
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+</html>

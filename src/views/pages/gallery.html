@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', {
+    "title": "HTML Boilerplate"
+  })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    <div class="flexbox">
+      <div class="proholic">
+        <h1><a href="" target="_blank">Proholic I.E.</a></h1>
+      </div>
+      <div class="proholic-1">
+        <h1><a href="index.html" style="border-bottom: none">Home</a></h1>
+      </div>
+      <div class="proholic-2">
+        <h1><a href="about.html">About</a></h1>
+      </div>
+      <div class="proholic-3">
+        <h1><a href="gallery.html" style="border-bottom: 1px solid #ec5c5e">Gallery</a></h1>
+      </div>
+      <div class="proholic-4">
+        <h1><a href="blog.html">Blog</a></h1>
+      </div>
+      <div class="proholic-5">
+        <h1><a href="contact.html">Contact</a></h1>
+      </div>
+      <div class="hh-button">
+        <button type="button" data-toggle="modal" data-target="#exampleModal" class="ss-button">
+          <i class="fas fa-search" style="text-align: center;"></i>
+        </button>
+      </div>
+    </div>
+    <div style="background-image: url('../../images/Demo-pro-img2.5.JPG')" class="middle-message">
+      <h1>Gallery</h1>
+      <h2><a href="index.html" class="home-hov"><i class="fas fa-home"></i>Home</a> > <span style="color: #ec5c5e">Gallery</span></h2>
+    </div>
+    
+    <div class="g-middle">
+      <div class="g-middle-contents">
+        <h2 style="border-bottom: 1px solid red">All</h2>
+        <h2>Human</h2>
+        <h2>Nature</h2>
+        <h2>Country</h2>
+        <h2>Video</h2>
+      </div>
+      <div class="g-top-img">
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5335.jpg" class="a"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5336.jpg" class="b"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5337.jpg" class="c"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5338.jpg" class="d"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5339.jpg" class="e"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5340.jpg" class="f"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5341.jpg" class="g"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5342.jpg" class="h"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5379.jpg" class="i"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5343.jpg" class="j"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5344.jpg" class="k"/>
+        </div>
+        <div class="g-middle-img">
+          <img src="../../images/IMG_5345.jpg" class="l"/>
+        </div>
+      </div>
+      <div class="v-button">
+          <button class="g-view">View More</button>
+      </div>
+    </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              <div class="modal-body">
+                <input type="text" class="search" placeholder="Search and hit enter_">
+                <button type="button" class="btn btn-primary">SEARCH</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- include footer.html -->
+    @@include('../layouts/footer.html')
+  </div>
+
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+</html>

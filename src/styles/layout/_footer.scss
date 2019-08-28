@@ -1,0 +1,112 @@
+.footer-container{
+    background-color: white;
+    height: 100vh;
+}
+.insta-foot{
+    font-weight: bold;
+    color: black; 
+    text-align: center;
+    font-size: 50px;
+}
+.insta-account{
+    color: #636363;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.insta-pic{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+.insta-photo{
+    display: flex;
+    height: 500px;
+    width: 300px;
+    background-size: cover;
+}
+.foot-last{
+    font-size: 30px;
+    padding: 10px;
+}
+.foot-last:link{
+    color: black;
+}
+.foot-last:visited{
+    color: black;
+}
+.f-icons{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    justify-content: flex-end;
+    align-content: center;
+}
+.f-icons h3{
+    display: flex;
+}
+.footer-container .fab.fa-facebook-f{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer-container .fab.fa-twitter{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer-container .fab.fa-instagram{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer-container .fab.fa-pinterest{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 20px;
+}
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #ec5c5e;
+    opacity: 0.6;
+    border-radius: 50%;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+.foot-icons:link{
+    padding: 10px;
+    color: black;
+}
+.foot-icons:visited{
+    padding: 10px;
+    color: black;
+}
+.foot-icons:hover{
+    padding: 10px;
+    color: #ec5c5e;
+}

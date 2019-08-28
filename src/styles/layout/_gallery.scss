@@ -1,0 +1,118 @@
+.g-middle{
+    background-color: white;
+}
+.g-middle-contents{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.g-middle-contents h2{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.g-top-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.g-middle-img{
+    display: flex;
+    width: 25%;
+    height: 70vh;
+}
+.a{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.b{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.c{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.d{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.e{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.f{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.g{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.h{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.i{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.j{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.k{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.l{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+.v-button{
+    margin: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+    justify-content: center;
+}
+.g-view{
+    color: black;
+    background-color: white;
+    border-color: #ec5c5e;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 160px;
+    height: 46px;
+}
+.g-view:hover{
+    color: white;
+    background-color: #ec5c5e;
+    border-color: #ec5c5e;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration :none;
+    box-shadow: 0px 0px 20px 20px #efefef ;
+    transition: .3s;
+    width: 160px;
+    height: 46px;
+}
